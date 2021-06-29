@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Сайт-визитка</title>
+		
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="./css/style.css" rel="stylesheet" type="text/css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+	</head>
+
+	<body>
+		<nav class="menu">
+			<a class="links" href="#about_me">Обо мне</a>
+			<a class="links" href="#education">Образование</a>
+			<a class="links" href="#experience">Опыт работы</a>
+			<a class="links" href="#hobby">Хобби</a>
+			<a class="links" href="#my_way">Как я становилась разработчиком</a>
+			<a class="links" href="#contacts">Контакты</a>
+			<a class="links" href="gallery.html" target="_blank">Галерея</a>
+		</nav>
+
+		<hr>
+
+		<div class="section">
+			<img
+				class="img"
+				src="./images/image_1.jpg"
+				alt="Здесь должна была быть картинка"
+				width="317"
+				height="419"
+			/>
+
+			<main class="information">
+				<h1 class="headings main_heading">Дарья Зибирова</h1>
+				<h2 class="headings points" id="about_me">Обо мне</h2>
+				<p>Ответственная, целеустремлённая, коммуникабельная</p>
+				<h2 class="headings points" id="education">Образование</h2>
+				<p>Петрозаводский государственный университет (специальность &mdash; социология)</p>
+				<h2 class="headings points" id="experience">Опыт работы</h2>
+				<ul>
+					<li><strong>Июль 2017 &mdash; октябрь 2018 (1 год 4 месяца).</strong> Кладовщик (Кемский почтамт)</li>
+					<li><strong>Март 2019 &mdash; ноябрь 2020 (1 год 9 месяцев).</strong> Старший отдела оценки товарного <br>
+					качества (Компания минералообработки)</li>
+					<li><strong>Март 2021 &mdash; настоящее время.</strong> Товаровед (Магазин автозапчастей)</li>
+				</ul>
+				<h2 class="headings points" id="hobby">Хобби</h2>
+				<p>Фильмы, йога, пешие прогулки</p>
+				<h2 class="headings points" id="my_way">Как я становилась разработчиком</h2>
+				<ul>
+					<li><strong>14 марта</strong> заинтересовлась сферой ИТ и начала поиск информации</li>
+					<li><strong>5 апреля</strong> поступила на курс &laquo; Frontend&ndash;разработка&raquo; в SkillFactory</li>
+					<li><strong>29 апреля</strong> приступила к изучению CSS</li>
+				</ul>
+			</main>
+		</div>
+
+		<hr>
+		<!--ВОПРОС. Подскажите, пожалуйста, подходит ли для качественной вёрстки
+		центрирование флексбоксов нижеследующим способом (обернула в div)?-->
+		<div class="to_center_footer">
+			<footer class="footer">
+				<h2 class="headings points" id="contacts">Контакты</h2>
+				<div class="item_1">
+					<span class="material-icons">email</span>
+					<p>Моя электронная почта: <a class="links" href="mailto:dashazibirova@gmail.com">dashazibirova@gmail.com</a></p>
+				</div>
+				<div class="item_2">
+					<span class="material-icons">account_circle</span>
+					<p>Мой профиль в GitHub: <a class="links" href="https://github.com/DaryaZibirova">DaryaZibirova</a></p>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
